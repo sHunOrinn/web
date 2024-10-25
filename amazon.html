@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- ====================================== bootstrap 5 ================================================================ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- ========================================= jquery ================================================================== -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- =================================================================================================================== -->
+    <link rel="stylesheet" href="amazon.css">
+    <link rel="stylesheet" href="FooterStyle.css">
+    <link rel="stylesheet" href="FooterJs.js">
+    <script defer src="amazon.js"></script>
+    <title>Amazon</title>
+</head>
+
+<body>
+    <!-- <div class="container"> -->
+    <div class="container container-fluid">
+        <div class="artilee">
+            <div class="section">
+                <h4>
+                    Explore Related Products
+                </h4>
+                <a href="#" class="crocs"> crocs </a>
+                <br>
+                <a href="#" class="laptop"> laptop </a>
+                <br>
+                <a href="#" class="zapatos"> zapatos de mujer </a>
+                <br>
+                <a href="#" class="air"> air fryer </a>
+                <br>
+                <a href="#" class="lego"> lego </a>
+            </div>
+            <hr>
+            <div class="section">
+                <h4>
+                    Department
+                </h4>
+                <a href="" class="womenClo">
+                    Women's Clothing
+                </a>
+                <br>
+                <a href="" class="womenActive">
+                    Women's Activewear
+                </a>
+                <br>
+                <a href="" class="menWallet">
+                    Men's Wallets, Card Cases & Money Organizers
+                </a>
+                <br>
+                <a href="" class="facial">
+                    Facial Creams & Moisturizers
+                </a>
+                <br>
+                <a href="" class="menSungLasses">
+                    Men's Sunglasses & Eyewear Accessories
+                </a>
+                <br>
+                <a href="" class="womenSandals">
+                    Women's Sandals
+                </a>
+                <br>
+                <a href="" class="sports">
+                    Sports & Outdoors
+                </a>
+            </div>
+            <br>
+            <div class="section">
+                <b>
+                    Customer Reviews
+                </b>
+                <br>
+                <br>
+                <div class="star">
+                    <!-- <i class="far fa-star"></i> -->
+                    ★★★★☆
+                    <a href="" class="up">&up</a>
+                </div>
+            </div>
+            <div class="section">
+                <b>
+                    Amazon Fashion
+                </b>
+                <br>
+                <input type="checkbox" class="checkbox">
+                <label for="checkbox">Top Brands</label>
+            </div>
+            <div class="section">
+                <b>Price</b>
+                <br>
+                <span style="font-size: 13px;"><b>$1 – $20+</b></span>
+                <br>
+                <input type="range" min="1" max="20" value="10">
+                <button class="Go">Go</button>
+            </div>
+            <div class="section">
+                <h4>Color</h4>
+                <div class="color-list">
+                    <button class="color-black"></button>
+                    <button class="color-gray"></button>
+                    <button class="color-white"></button>
+                    <button class="color-brown"></button>
+                    <button class="color-beige"></button>
+                    <button class="color-red"></button>
+                    <br>
+                    <button class="color-pink"></button>
+                    <button class="color-yellow"></button>
+                    <button class="color-orange"></button>
+                    <button class="color-green"></button>
+                    <button class="color-blue"></button>
+                    <button class="color-purple"></button>
+                    <br>
+                    <button class="color-silver"></button>
+                    <button class="color-multi"></button>
+                    <button class="color-lightblue"></button>
+                </div>
+            </div>
+            <div class="section">
+                <h4>Seller</h4>
+                <div class="seller-option">
+
+                    <label for="option1" class="CUFSO">
+                        <input type="checkbox" id="option1">
+                        CUFSO prime day 2024</label>
+
+                </div>
+                <div class="seller-option">
+                    <label for="option2" class="prime">
+                        <input type="checkbox" id="option2">
+                        ⭐⭐ Black Friday Deals 2024 ⭐⭐ Halloween&Xmas Deals⭐⭐
+                    </label>
+
+                </div>
+                <button class="see-more" id="see-more-btn"><i class="a-icon a-icon-extender-expand"></i>See
+                    more</button>
+                <div id="hiddenContent">
+                    <div class="seller-option">
+
+                        <label for="option3" class="HerRoom">
+                            <input type="checkbox" id="option3">
+                            HerRoom</label>
+
+                    </div>
+                    <div class="seller-option">
+
+                        <label for="option4" class="Amazon-com">
+                            <input type="checkbox" id="option4">
+                            Amazon.com</label>
+
+                    </div>
+                    <div class="seller-option">
+
+                        <label for="option5" class="NY-Lingerie">
+                            <input type="checkbox" id="option5">
+                            NY Lingerie</label>
+
+                    </div>
+                    <div class="seller-option">
+
+                        <label for="option6" class="Bare-Nesesities">
+                            <input type="checkbox" id="option6">
+                            Bare Nesesities</label>
+
+                    </div>
+                    <div class="seller-option">
+
+                        <label for="option7" class="Bixemi">
+                            <input type="checkbox" id="option7">
+                            Bixemi</label>
+
+                    </div>
+                    <button class="see-more" id="see-less-btn"><i class="a-icon a-icon-extender-collapse"></i>See
+                        Less</button>
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+        <div class="aside">
+            <!-- <h3>Results</h3> -->
+            <div class="img1 card">
+                <img src="img/1.png" alt="">
+                <div class="card-body">
+                    <b>Mademark</b>
+                    <br>
+                    <a href="img1.html">Mademark x MTV - The official MTV Logo with retro palms in paradise T-Shirt</a>
+                    <div class="star">★★★★☆</div>
+                </div>
+            </div>
+            <div class="img2 card">
+                <img src="img/2.png" alt="">
+                <div class="card-body">
+                    <b>Mademark</b>
+                    <br>
+                    <a href="img2.html">x MTV - The official MTV Logo with the classic 80s tapes T-Shirt</a>
+                    <div class="star">★★★★☆</div>
+                </div>
+            </div>
+            <!-- <div class="img3 card">
+                <img src="img/3.png" alt="">
+                <div class="card-body">
+                    <b>SHARPIE</b>
+                    <br>
+                    <a href="">Permanent Markers Set, Quick Drying And Fade Resistant Fine Point Marker For Wood,
+                        Plastic,
+                        Paper, Metal, And</a>
+                    <div class="star">★★★★☆</div>
+                </div>
+            </div> -->
+            <div class="img4 card">
+                <img src="img/4.png" alt="">
+                <div class="card-body">
+                    <a href="img4.html">Nintendo Men's N64 Logo Short Sleeve T-Shirt</a>
+                    <div class="star">★★★★☆</div>
+                    <sup>$</sup><span style="font-size: 24px;">25</span><sup>98</sup>
+                    <br>
+                    <sub>$28.54 shipping</sub>
+                </div>
+            </div>
+            <div class="img5 card">
+                <img src="img/5.png" alt="">
+                <div class="card-body">
+                    <a href="img5.html">Jurassic Park Men's Classic Movie Logo T-Shirt</a>
+                    <div class="star">★★★★☆</div>
+                    <span style="color: #C45500; font-size: 24px;">-23%</span>
+                    <sup>$</sup><span style="font-size: 24px;">19</span><sup>99</sup>
+                    <br>
+                    <sub>List: <del>$25.99</del></sub>
+                    <br>
+                    <sub>$30.71 shipping</sub>
+                </div>
+            </div>
+            <div class="img6 card">
+                <img src="img/6.png" alt="">
+                <div class="card-body">
+                    <!-- <b>Amazon Essentials</b> -->
+                    <a href="img6.html">MTV Men's Retro Logo T-Shirt</a>
+                    <div class="star">★★★★☆</div>
+                    <sub>700+ viewed in past month</sub>
+                    <br>
+                    <sup>$</sup><span style="font-size: 24px;">15</span><sup>32</sup>
+                    <br>
+                    <sub>$31.65 shipping</sub>
+                </div>
+            </div>
+            <div class="img7 card">
+                <img src="img/7.png" alt="">
+                <div class="card-body">
+                    <a href="img7.html">MTV Men's Logo 90's Retro T-Shirt</a>
+                    <div class="star">★★★★☆</div>
+                    <sup>$</sup><span style="font-size: 24px;">18</span><sup>20</sup>
+                    <br>
+                    <sub>$27.80 shipping</sub>
+                </div>
+            </div>
+            <div class="img8 card">
+                <img src="img/8.png" alt="">
+                <div class="card-body">
+                    <a href="img8.html">Pokemon Pokémon Pikachu Japanese Puzzle Power T-Shirt</a>
+                    <div class="star">★★★★☆</div>
+                    <sup>$</sup><span style="font-size: 24px;">15</span><sup>68</sup>
+                    <br>
+                    <sub>$30.67 shipping</sub>
+                    <!-- <br> -->
+                    <!-- <span>Usually ships within 3 to 5</span> -->
+                </div>
+            </div>
+            <div class="img9 card">
+                <img src="img/9.png" alt="">
+                <div class="card-body">
+                    <a href="">Hoodies For Women,Halloween Women Costume Long Sleeve Casual Pumpkin Print Hoodie
+                        Cute</a>
+                    <div class="star">★★★★☆</div>
+                </div>
+            </div>
+            <div class="img10 card">
+                <img src="img/10.png" alt="">
+                <div class="card-body">
+                    <a href="">Womens Halloween Sweatshirt,Halloween Sweaters For Women 2024 Fall Womens Fashion
+                        Sweatshirts</a>
+                    <div class="star">★★★★☆</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- =============================================================================================================================== -->
+    <div class="Footer">
+        <button id="backToTop" class="backToTopBtn" onclick="scrollTop()">Back To Top</button>
+
+        <div class="navFooterInfomation">
+            <div class="navFooterVerticalColum" role="presentation">
+                <div style="display: table-row; font-size: 14px;">
+                    <div class="navGetToKnowUs">
+                        <h4 class="h4">Get To Know Us</h4>
+                        <div class="textleft">
+                            <ul>
+                                <li><a href="https://www.amazon.jobs/en/" class="underline">Careers</a></li>
+                                <li><a href="https://www.aboutamazon.com/" class="underline">Blog</a></li>
+                                <li><a href="https://www.aboutamazon.com/?utm_source=gateway&utm_medium=footer"
+                                        class="underline">About Amazon</a></li>
+                                <li><a href="https://ir.aboutamazon.com/overview/default.aspx"
+                                        class="underline">Investor Relations</a></li>
+                                <li><a href="https://www.amazon.com/gp/browse.html?node=2102313011&ref_=footer_devices"
+                                        class="underline">Amazon Devices</a></li>
+                                <li><a href="https://www.amazon.science/" class="underline">Amazon Science</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="navFooterLinkCol"></div>
+                    <div class="navMakeMoneyWithUs">
+                        <h4 class="h4">Make Money With Us</h4>
+                        <div class="textleft">
+                            <ul>
+                                <li><a href="https://sell.amazon.com/?ld=AZFSSOA&ref_=footer_soa" class="underline">Sell
+                                        Products on Amazon</a></li>
+                                <li><a href="https://sell.amazon.com/programs/amazon-business?ld=usb2bunifooter&ref_=footer_b2b"
+                                        class="underline">Sell on Amazon Business</a></li>
+                                <li><a href="https://developer.amazon.com/" class="underline">Sell apps on
+                                        Amazon</a>
+                                </li>
+                                <li><a href="https://affiliate-program.amazon.com/" class="underline">Become an
+                                        Affiliate</a></li>
+                                <li><a href="https://advertising.amazon.com/?ref=ext_amzn_ftr"
+                                        class="underline">Advertise Your Products</a></li>
+                                <li><a href="https://kdp.amazon.com/en_US/" class="underline">Self-Publish with
+                                        Us</a>
+                                </li>
+                                <li><a href="https://go.thehub-amazon.com/amazon-hub-locker" class="underline">Host
+                                        an
+                                        Amazon Hub</a></li>
+                                <li><a href="https://www.amazon.com/b/?node=18190131011&ld=AZUSSOA-seemore&ref_=footer_seemore"
+                                        class="underline">›See More Make Money with Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="navFooterLinkCol"></div>
+                    <div class="navAmazonPaymentProducts">
+                        <h4 class="h4">Amazon Payment Products</h4>
+                        <div class="textleft">
+                            <ul>
+                                <li><a href="https://www.amazon.com/dp/B07984JN3L?plattr=ACOMFO&ie=UTF-8"
+                                        class="underline">Amazon Business Card</a></li>
+                                <li><a href="https://www.amazon.com/gp/browse.html?node=16218619011&ref_=footer_swp"
+                                        class="underline">Shop With Points</a></li>
+                                <li><a href="https://www.amazon.com/gp/browse.html?node=10232440011&ref_=footer_reload_us"
+                                        class="underline">Reload Your Blance</a></li>
+                                <li><a href="https://www.amazon.com/gp/browse.html?node=388305011&ref_=footer_tfx"
+                                        class="underline">Amazon Currence Converter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="navFooterLinkCol"></div>
+                    <div class="navLetUsHelpYou">
+                        <h4 class="h4">Let Us Help You</h4>
+                        <div class="textleft">
+                            <ul>
+                                <li><a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=GDFU3JS5AL6SYHRD&ref_=footer_covid"
+                                        class="underline">Amazon and COVID-19</a></li>
+                                <li><a href="https://www.amazon.com/gp/css/homepage.html?ref_=footer_ya"
+                                        class="underline">Your Account</a></li>
+                                <li><a href="https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fyour-orders%2Forders%3F_encoding%3DUTF8%26ref_%3Dfooter_yo&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_retail_yourorders_us&openid.mode=checkid_setup&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"
+                                        class="underline">Your Orders</a></li>
+                                <li><a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=468520&ref_=footer_shiprates"
+                                        class="underline">Shipping Rates & Polices</a></li>
+                                <li><a href="https://www.amazon.com/ap/signin?openid.pape.max_auth_age=3600&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fspr%2Freturns%2Fhomepage%2Fhomepage.html%3Fref_%3Dfooter_hy_f_4&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_psr_desktop_us&openid.mode=checkid_setup&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"
+                                        class="underline">Returns & Replacements</a></li>
+                                <li><a href="https://www.amazon.com/ap/signin?clientContext=134-4659006-4458333&openid.pape.max_auth_age=3600&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fdigital%2Ffiona%2Fmanage&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&marketPlaceId=USAmazon&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"
+                                        class="underline">Manage Your Content and Devices</a></li>
+                                <li><a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=footer_gw_m_b_he"
+                                        class="underline">Help</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-footer-line"></div>
+
+            <div class="LogoAndLanguageFooter">
+                <img src="AmazonLogo.png" alt="amazon" class="LogoFooter">
+                <div class="Language" class="textleft">
+                    <i class="fas fa-globe" style="color: white; font-size: 15px;"></i>
+                    <span style="color: #DDDDDD; margin-left: 10px; font-size: 13px;"> English</span>
+                </div>
+                <div class="Denomenation">
+                    <i class="fi fi-sr-dollar" style="color: white; font-size: 20px;"></i>
+                    <p class="textleft" style="font-size: 13px; margin-left: 10px; margin-top: 0px;">USD-U.S.Dollar
+                    </p>
+                </div>
+                <div class="UnitedStates">
+                    <img src="Flag_of_the_United_States.svg.png" alt="Flag_of_the_United_States" width="20px"
+                        height="15px">
+                    <p class="textleft" style="font-size: 13px; margin-left: 10px; margin-top: 0px;">United States
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="navFooterDescLine">
+
+            <table>
+                <tr>
+                    <td>
+                        <a href="https://music.amazon.com/?ref=dm_aff_amz_com" class="underline">
+                            Amazon <br>Music <br>
+                            <span style="color: #999;">
+                                Stream
+                                <br>milions
+                                <br>of songs
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://advertising.amazon.com/?ref=footer_advtsing_amzn_com" class="underline">
+                            Amazon Ads <br>
+                            <span style="color: #999;">
+                                Eeach customers
+                                <br>wherever they
+                                <br>spend their time
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://www.6pm.com/" class="underline">
+                            6pm <br>
+                            <span style="color: #999;">
+                                Score deals
+                                <br>on fashion brands
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://www.abebooks.com/" class="underline">
+                            AbeBooks <br>
+                            <span style="color: #999;">
+                                Books, art
+                                <br>& colectibles
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://www.acx.com/" class="underline">
+                            ACX <br>
+                            <span style="color: #999;">
+                                AudioBook Publishing
+                                <br>Made Easy
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://sell.amazon.com/?ld=AZUSSOA-footer-aff&ref_=footer_sell" class="underline">
+                            Sell on Amazon <br>
+                            <span style="color: #999;">
+                                Start a Selling
+                                <br>Acount
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://www.veeqo.com/?utm_source=amazon&utm_medium=website&utm_campaign=footer"
+                            class="underline">
+                            Veeqo <br>
+                            <span style="color: #999;">
+                                Shipping Softwafe
+                                <br>Inventory
+                                <br>Management
+                            </span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://music.amazon.com/?ref=dm_aff_amz_com" class="underline">
+                            Amazon <br>Business <br>
+                            <span style="color: #999;">
+                                Everything
+                                <br>For
+                                <br>Your
+                                <br>Business
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://advertising.amazon.com/?ref=footer_advtsing_amzn_com" class="underline">
+                            AmazonGlobal <br>
+                            <span style="color: #999;">
+                                Ship Odrers
+                                <br>Internationally
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://www.6pm.com/" class="underline">
+                            Home Services <br>
+                            <span style="color: #999;">
+                                Experienced Pros
+                                <br>Happiness
+                                <br>Guarantee
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://www.abebooks.com/" class="underline">
+                            Amazon Web <br>
+                            Services<br>
+                            <span style="color: #999;">
+                                Scalable Cloud
+                                <br>Computing
+                                <br>Services
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://www.acx.com/" class="underline">
+                            Audible <br>
+                            <span style="color: #999;">
+                                Listen to Books &
+                                <br>Original
+                                <br>Audio Performances
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://sell.amazon.com/?ld=AZUSSOA-footer-aff&ref_=footer_sell" class="underline">
+                            Box Office Mojo <br>
+                            <span style="color: #999;">
+                                Find Movie
+                                <br>Box Office Data
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://www.veeqo.com/?utm_source=amazon&utm_medium=website&utm_campaign=footer"
+                            class="underline">
+                            Goodreads <br>
+                            <span style="color: #999;">
+                                Book reviews
+                                <br>&
+                                <br>recommendations
+                            </span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://music.amazon.com/?ref=dm_aff_amz_com" class="underline">
+                            IMDb <br>
+                            <span style="color: #999;">
+                                Movies, TV
+                                <br>Celebrities
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://advertising.amazon.com/?ref=footer_advtsing_amzn_com" class="underline">
+                            IMDbPro <br>
+                            <span style="color: #999;">
+                                Get info
+                                <br>Entertainment
+                                <br>Professionals
+                                Need
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://www.6pm.com/" class="underline">
+                            Kindle Direct <br>
+                            Publishing <br>
+                            <span style="color: #999;">
+                                Indie Digital &
+                                <br>Print Publishing
+                                <br>Made easy
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://www.abebooks.com/" class="underline">
+                            Prime Video <br>
+                            Direct <br>
+                            <span style="color: #999;">
+                                Video
+                                <br>Distribusion
+                                <br>Made easy
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://www.acx.com/" class="underline">
+                            Shopbop <br>
+                            <span style="color: #999;">
+                                Designer
+                                <br>Fashion Brands
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://sell.amazon.com/?ld=AZUSSOA-footer-aff&ref_=footer_sell" class="underline">
+                            Woots <br>
+                            <span style="color: #999;">
+                                Deals and
+                                <br>Shenanigans
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://www.veeqo.com/?utm_source=amazon&utm_medium=website&utm_campaign=footer"
+                            class="underline">
+                            Zappos <br>
+                            <span style="color: #999;">
+                                Shoes &
+                                <br>Clothing
+                            </span>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="https://music.amazon.com/?ref=dm_aff_amz_com" class="underline">
+                            Ring<br>
+                            <span style="color: #999;">
+                                Smart Home
+                                <br>Security
+                                <br>Systems
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://advertising.amazon.com/?ref=footer_advtsing_amzn_com" class="underline">
+                            eero Wifi <br>
+                            <span style="color: #999;">
+                                Stream 4K Video
+                                <br>in Every Room
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://www.6pm.com/" class="underline">
+                            Blink <br>
+                            <span style="color: #999;">
+                                Smart Security
+                                <br>for Every Home
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://www.abebooks.com/" class="underline">
+                            Neighbors Apps <br>
+                            <span style="color: #999;">
+                                Real-Time
+                                <br>Crime
+                                <br>& Safety Alerts
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://www.acx.com/" class="underline">
+                            Amazon Subscripsion <br>
+                            Boxes <br>
+                            <span style="color: #999;">
+                                Top subscripsion boxes-
+                                <br>Rigth to your door
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+                        <a href="https://sell.amazon.com/?ld=AZUSSOA-footer-aff&ref_=footer_sell" class="underline">
+                            PillPack<br>
+                            <span style="color: #999;">
+                                Pharmacy
+                                <br>Simplified
+                            </span>
+                        </a>
+                    </td>
+                    <td class="spaceInTableFooter"></td>
+                    <td>
+
+                    </td>
+                </tr>
+            </table>
+            <p class="textcenter">© 2024, Amazon Clone. All rights reserved.</p>
+        </div>
+
+    </div>
+</body>
+
+</html>

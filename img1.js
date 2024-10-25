@@ -1,0 +1,36 @@
+function Type(button){
+    document.getElementById("Type").innerHTML = button.innerHTML
+}
+$(document).ready(function(){
+    $("#show1").click(function(){
+        $("#1").show();
+    });
+    $("#show2").click(function(){
+        $("#1").hide();
+    });
+    $("#show3").click(function(){
+        $("#1").hide();
+    });
+});
+$(document).ready(function(){
+    $("#show2").click(function(){
+        $("#2").show();
+    });
+    $("#show1").click(function(){
+        $("#2").hide();
+    });
+    $("#show3").click(function(){
+        $("#2").hide();
+    });
+});
+$(document).ready(function(){
+    $("#show3").click(function(){
+        $("#3").show();
+    });
+    $("#show1").click(function(){
+        $("#3").hide();
+    });
+    $("#show2").click(function(){
+        $("#3").hide();
+    });
+});

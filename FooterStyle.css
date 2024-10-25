@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+}
+
+div.Footer {
+    position: relative;
+    padding: 0px;
+    margin-left: 0px;
+    width: 100vw;
+    max-width: 100%;
+    height: auto;
+    /* border: 3px solid #73AD21; */
+
+}
+
+.backToTopBtn {
+    position: absolute;
+    padding: 11px 0px 11px 0px;
+    background-color: #37475A;
+    display: block;
+    width: 100vw;
+    margin-left: -5px;
+    height: 50px;
+    color: white;
+}
+
+.backToTopBtn:hover {
+    background-color: #495769;
+}
+
+.Footer .textcenter {
+    color: white;
+    text-align: center;
+}
+
+.Footer .textleft {
+    color: #DDDDDD;
+    text-align: left;
+}
+
+.Footer .navFooterInfomation {
+    background-color: #232F3E;
+    /* margin-left: -1%; */
+    /* padding-top: 30px;
+    padding-left: 16%; */
+    padding: 70px 0 10px 0;
+    display: block;
+    width: 100vw;
+}
+
+.Footer .navFooterVerticalColumn {
+    display: table;
+    margin: 0 auto;
+}
+
+
+.Footer .navGetToKnowUs {
+    margin-left: 200%;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.Footer .navMakeMoneyWithUs {
+    margin-left: 130%;
+    width: 80%;
+    height: auto;
+}
+
+.Footer .navAmazonPaymentProducts {
+    margin-left: 115%;
+    width: 100%;
+    height: auto;
+}
+
+.Footer .navLetUsHelpYou {
+    margin-left: 105%;
+    width: 62%;
+    height: auto;
+}
+
+.Footer .navFooterLinkCol {
+    color: #333;
+    vertical-align: top;
+    line-height: 120%;
+}
+
+.Footer .navFooterLinkCol {
+    display: table-cell;
+    padding: 0 50px;
+}
+
+.Footer .h4 {
+    font-size: 16px;
+    color: white;
+}
+
+.Footer ul {
+    list-style-type: none;
+    /* Bỏ dấu đầu dòng */
+    padding: 0;
+    /* Bỏ padding cho ul */
+    color: #DDDDDD;
+}
+
+.Footer li {
+    margin: 8px 0;
+    /* Thêm khoảng cách giữa các mục */
+}
+
+.Footer .underline {
+    text-decoration: none;
+    /* Không gạch chân khi không hover */
+    color: white;
+    /* Màu chữ mặc định */
+    transition: text-decoration 0.3s;
+    /* Hiệu ứng chuyển tiếp */
+}
+
+.Footer .underline:hover {
+    text-decoration: underline;
+    /* Gạch chân khi hover */
+}
+
+.nav-footer-line {
+    border-top: 1px solid #3A4553;
+    margin-top: 40px;
+    display: block;
+    unicode-bidi: isolate;
+    box-sizing: border-box;
+}
+
+.LogoAndLanguageFooter {
+    display: flex;
+    /* Sử dụng flex để đặt các phần tử trên cùng một hàng */
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+    width: 100%;
+    padding: 20px;
+}
+
+.LogoFooter {
+    width: 76px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 28%;
+}
+
+.Language {
+    display: flex;
+    border: 1px solid #8D9096;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100px;
+    margin-left: 90px;
+}
+
+.Denomenation {
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid #8D9096;
+    padding: 10px;
+    width: 130px;
+    height: 42px;
+    margin-left: 10px;
+}
+
+.UnitedStates {
+    display: flex;
+    border-radius: 4px;
+    border: 1px solid #8D9096;
+    padding: 10px;
+    width: 130px;
+    height: 42px;
+    margin-left: 10px;
+}
+
+.footer {
+    background-color: #232F3E;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.navFooterDescLine {
+    background-color: #131A22;
+    padding: 30px 0;
+}
+
+.navFooterDescLine table {
+    border: "0";
+    margin: 0 5% 0 15%;
+    background-color: #131A22;
+    padding: 10px;
+    text-decoration: none;
+
+
+}
+
+.Footer table:hover {
+    text-decoration: underline;
+}
+
+.Footer .navFooterDescItem {
+    font-size: 12px !important;
+    padding: 0 .75em;
+    vertical-align: top;
+    text-align: left;
+
+    line-height: 115%;
+    color: white;
+}
+
+.Footer .navFooterDesctext {
+    color: #999;
+}
+
+.Footer tr {
+    display: table-row;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    border-color: inherit;
+}
+
+.Footer td {
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 120%;
+    padding: 10px 10px;
+    vertical-align: top;
+
+}
+
+.Footer th:hover {
+    text-decoration: inline;
+}
+
+.Footer .spaceInTableFooter {
+    width: 3%;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Selector with Checkbox</title>
+    <style>
+        /* Container for the language selector */
+        .language-selector {
+            position: relative;
+            display: inline-block;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Dropdown list of languages */
+        .language-dropdown {
+            display: none; /* Hidden by default */
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 200px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        /* Individual language options with checkboxes */
+        .language-dropdown li {
+            padding: 10px;
+            list-style-type: none;
+            cursor: pointer;
+        }
+
+        /* Container for each checkbox and language text */
+        .language-dropdown li label {
+            display: flex;
+            align-items: center;
+        }
+
+        .language-dropdown input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        /* Highlight on hover */
+        .language-dropdown li:hover {
+            background-color: #e9ecef;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <span>🌐 Select Language</span>
+        <!-- Dropdown List with Checkboxes -->
+        <ul class="language-dropdown">
+            <li>
+                <label>
+                    <input type="checkbox" name="language" value="English"> English
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="language" value="Español"> Español
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="language" value="Français"> Français
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="language" value="Deutsch"> Deutsch
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" name="language" value="日本語"> 日本語
+                </label>
+            </li>
+        </ul>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Show dropdown on hover
+            $('.language-selector').mouseenter(function() {
+                $('.language-dropdown').stop(true, true).slideDown();
+            });
+
+            // Hide dropdown when mouse leaves
+            $('.language-selector').mouseleave(function() {
+                $('.language-dropdown').stop(true, true).slideUp();
+            });
+        });
+    </script>
+
+</body>
+</html>

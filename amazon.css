@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+}
+.container{
+    display: flex;
+    gap: 20px; 
+    padding: 20px;
+}
+.container a {
+    text-decoration: none;
+    color: black;
+}
+
+h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.artilee {
+    /* display: flex; */
+    /* width: 100%; */
+    /* padding: 15px; */
+    /* display: flex; */
+    /* width: 250px; */
+    margin-left: -100px;
+}
+
+.womenActive {
+    margin-left: 20px;
+}
+
+.container a:hover {
+    color: #C45500;
+}
+
+.star {
+    /* border: ; */
+    color: #C45500;
+    font-size: 18px;
+    cursor: pointer;
+    /* margin-top: -15px; */
+}
+
+.up:hover {
+    color: #C45500;
+}
+
+button.Go {
+    color: black;
+    display: block;
+    margin-top: -25px;
+    margin-left: 140px;
+    padding: 5px 10px;
+    border: 5px;
+    border-radius: 39%;
+    cursor: pointer;
+}
+
+button.Go:hover {
+    background-color: lightgray;
+}
+
+.color-list button {
+    border-radius: 100%;
+    /* margin-left: 10px; */
+    padding: 12px 12px;
+    border: none;
+}
+
+.color-black {
+    background-color: #000;
+    cursor: pointer;
+}
+
+.color-gray {
+    background-color: #808080;
+    cursor: pointer;
+}
+
+.color-white {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.color-brown {
+    background-color: #8B4513;
+    cursor: pointer;
+}
+
+.color-beige {
+    background-color: #F5F5DC;
+    cursor: pointer;
+}
+
+.color-red {
+    background-color: #FF0000;
+    cursor: pointer;
+}
+
+.color-pink {
+    background-color: #FFC0CB;
+    cursor: pointer;
+}
+
+.color-yellow {
+    background-color: #FFFF00;
+    cursor: pointer;
+}
+
+.color-orange {
+    background-color: #FFA500;
+    cursor: pointer;
+}
+
+.color-green {
+    background-color: #008000;
+    cursor: pointer;
+}
+
+.color-blue {
+    background-color: #0000FF;
+    cursor: pointer;
+}
+
+.color-purple {
+    background-color: #800080;
+    cursor: pointer;
+}
+
+.color-silver {
+    background-color: #C0C0C0;
+    cursor: pointer;
+}
+
+.color-multi {
+    background-image: linear-gradient(45deg, red, yellow, green, blue);
+    cursor: pointer;
+}
+
+.color-lightblue {
+    background-color: #ADD8E6;
+    cursor: pointer;
+}
+
+.seller-option {
+    font-size: 14px;
+}
+
+.container .artilee .section #hiddenContent label:hover{
+    color: #C45500;
+}
+
+.section input{
+    border-radius: 2px;
+
+}
+.section input:hover{
+    border: 5px solid lightblue;
+}
+#hiddenContent {
+    display: none; /* Ban đầu ẩn nội dung */
+}
+#see-less-btn {
+    display: none; /* Ban đầu ẩn nội dung */
+}
+
+
+.CUFSO:hover {
+    color: #C45500;
+    cursor: pointer;
+}
+
+.prime:hover {
+    color: #C45500;
+    cursor: pointer;
+}
+
+.see-more:hover {
+    /* font-size: 14px; */
+    color: #C45500;
+    cursor: pointer;
+}
+
+.Amazon:hover {
+    color: #C45500;
+    cursor: pointer;
+}
+
+.ROKIACDE:hover {
+    color: #C45500;
+    cursor: pointer;
+}
+
+button.see-more {
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.more-options {
+    margin-top: 10px;
+}
+
+/* .hidden {
+    display: none;
+} */
+.aside {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 5px;
+    max-width: 1400px;
+    margin-top: 20px;
+
+}
+.aside .card{
+    width: 244px;
+    height: 560px;
+}
+.aside img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 244px;
+    height: 254px;
+    cursor: pointer;
+}
