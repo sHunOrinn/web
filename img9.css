@@ -1,0 +1,17 @@
+.posts .container .item .card{
+    height: 378px;
+    width: 368px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.posts .container .item .card img{
+    width: 367px;
+    height: 240px;
+    border-radius: 0px;
+}
+.posts .container .item .card .card-body a{
+    color: #40BEB2;
+}
+.posts .container .item{
+    gap: 35px;
+}

@@ -230,3 +230,35 @@ button.see-more {
     height: 254px;
     cursor: pointer;
 }
+.item .info a{
+    text-decoration: none;
+    color: #40BEB2;
+}
+
+.item .info a:hover{
+    color: #C45500;
+}
+
+.orders .buy .card .stock .quantity select{
+    width: 212px;
+    height: 34px;
+}
+.orders .buy .card .stock button{
+    margin-top: 5px;
+    /* margin-left: -1px; */
+    background-color: #F7CA00;
+    border-radius: 500px;
+    width: 193px;
+    height: 29px;
+}
+.orders .buy .card table{
+    font-size: 12px;
+}
+
+.orders .buy .card table a{
+    text-decoration: none;
+    color: #40BEB2;
+}
+.orders .buy .card table a:hover{
+    color: #C45500;
+}
