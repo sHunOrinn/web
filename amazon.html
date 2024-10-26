@@ -16,13 +16,115 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- =================================================================================================================== -->
     <link rel="stylesheet" href="amazon.css">
+    <!-- =================================================header============================================================ -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" /> -->
+    <!-- =================================================================================================================== -->
+    <!-- ============================================footer================================================================== -->
     <link rel="stylesheet" href="FooterStyle.css">
     <link rel="stylesheet" href="FooterJs.js">
+    <!-- =================================================================================================================== -->
     <script defer src="amazon.js"></script>
     <title>Amazon</title>
 </head>
 
 <body>
+    <!-- =========================================================header================================================================ -->
+    <header class="bg-gray-900 text-white">
+        <div class="flex items-center justify-between px-4 py-2">
+            <div class="flex items-center space-x-4">
+                <div class="text-2xl font-bold">
+                    amazon
+                </div>
+                <div class="text-sm">
+                    Deliver to
+                    <span class="font-bold">
+                        Vietnam
+                    </span>
+                </div>
+            </div>
+            <div class="flex items-center space-x-2">
+                <select class="bg-gray-200 text-black px-2 py-1 rounded">
+                    <option>
+                        All
+                    </option>
+                </select>
+                <input class="px-2 py-1 rounded-l w-96" type="text" placeholder="amazon official site" />
+                <button class="bg-yellow-400 px-4 py-1 rounded-r">
+                    <i class="fas fa-search">
+                    </i>
+                </button>
+            </div>
+            <div class="flex items-center space-x-4">
+                <div class="flex items-center space-x-1">
+                    <img alt="US flag" class="w-5 h-5" height="20"
+                        src="https://storage.googleapis.com/a1aa/image/mIW9pnEnpSpqK9B2lOT6eJob9zbyqb04CM2bBiegdfhXJTUnA.jpg"
+                        width="20" />
+                    <span>
+                        EN
+                    </span>
+                </div>
+                <div class="text-sm">
+                    Hello, sign in
+                    <span class="font-bold">
+                        Account &amp; Lists
+                    </span>
+                </div>
+                <div class="text-sm">
+                    Returns
+                    <span class="font-bold">
+                        &amp; Orders
+                    </span>
+                </div>
+                <div class="flex items-center space-x-1">
+                    <i class="fas fa-shopping-cart">
+                    </i>
+                    <span>
+                        Cart
+                    </span>
+                </div>
+            </div>
+        </div>
+        <nav class="bg-gray-800 text-white px-4 py-2">
+            <div class="flex items-center space-x-4">
+                <div class="flex items-center space-x-1">
+                    <i class="fas fa-bars">
+                    </i>
+                    <span>
+                        All
+                    </span>
+                </div>
+                <span>
+                    Today's Deals
+                </span>
+                <span>
+                    Customer Service
+                </span>
+                <span>
+                    Registry
+                </span>
+                <span>
+                    Gift Cards
+                </span>
+                <span>
+                    Sell
+                </span>
+            </div>
+        </nav>
+    </header>
+    <main class="px-4 py-2">
+        <div class="text-sm">
+            1-48 of 251 results for
+            <span class="font-bold text-orange-600">
+                "amazon official site"
+            </span>
+        </div>
+        <div class="flex justify-end">
+            <div class="flex items-center space-x-1">
+            </div>
+        </div>
+    </main>
+    <!-- ================================================================================================================== -->
     <!-- <div class="container"> -->
     <div class="container container-fluid">
         <div class="artilee">
@@ -291,6 +393,35 @@
                     <div class="star">★★★★☆</div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="relatedSearches">
+        <b style="font-size: 24px;">Related searches</b>
+        <br>
+        <br>
+        <div class="container-searches">
+            <div class="row">
+                <div class="col"><i class="fa-solid fa-magnifying-glass"></i> <a href="amazonp2.html">amazon+official+site</a></div>
+                <div class="col"><i class="fa-solid fa-magnifying-glass"></i> <a href="amazon.html">affiliate marketing with amazon</a></div>
+                <div class="col"><i class="fa-solid fa-magnifying-glass"></i> <a href="amazon.html">amazon store</a></div>
+            </div>
+            <div class="row ">
+                <div class="col"><i class="fa-solid fa-magnifying-glass"></i> <a href="amazon.html">amazon usa</a></div>
+                <div class="col"><i class="fa-solid fa-magnifying-glass"></i> <a href="amazon.html">online shopping</a></div>
+                <div class="col"><i class="fa-solid fa-magnifying-glass"></i> <a href="amazon.html">amazon shopping online</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="pagination">
+        <div class="container">
+            <button class="prev" onclick="changePage('prev')"><i class="fa-solid fa-angle-left"></i> Previous |</button>
+            <button class="page-number active" onclick="goToPage(1)">1</button>
+            <button class="page-number active" onclick="goToPage(2)">2</button>
+            <button class="page-number active" onclick="goToPage(3)">3</button>
+            <button class="page-number active" onclick="goToPage(4)">4</button>
+            <button class="page-number active" onclick="goToPage(5)">5</button>
+            <button class="page-number active" onclick="goToPage(6)">6</button>
+            <button class="next" onclick="changePage('next')">| Next <i class="fa-solid fa-angle-right"></i></button>
         </div>
     </div>
     <!-- =============================================================================================================================== -->
